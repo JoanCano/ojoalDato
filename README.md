@@ -47,7 +47,7 @@ La movilidad de una persona al utilizar el servicio Bizi pensamos que no puede m
 + **Removal_Station:** parking de recogida
 + **DateTime_Arrival:** fecha llegada
 + **Arrival_station:** parking llegada
-+ **LocationLength:** ???
++ **LocationLength:** Longitud estimada del recorrido en Km (no usado en nuestra visualización)
 
 #### Desarrollo del proyecto
 
