@@ -54,4 +54,3 @@ si agregamos el componente espacial, podemos realizar consultas como las siguien
 Son muchas las cuestiones que se pueden plantear. El objetivo de nuestro es grupo es mostrar a la ciudadanía como se está moviendo Zaragoza en bici, a través del siguiente [vídeo](/prototipo/video.mp4) que muestran todos los recorridos en un solo día.
 
 Sin embargo, hemos creado además el [siguiente visor](/prototipo/kepler.html) con los mismos datos para que cualquier usuario pueda interaccionar, promocionar, educar con él y participar activamente a mejorar tanto el servicio de Bizi como las infraestructuras ciclistas que tanto ayudan a solucionar los problemas de tráfico, la salud y a reducir los gases de efecto invernadero.
-por la educación y la promoción.
