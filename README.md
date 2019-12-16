@@ -26,9 +26,9 @@ El reto consiste en crear una visualización de datos proporcionados por estos o
 
 ### Prototipo
 
-[Programa Python](/prototipo/georreferenciarMuestra.py)
-[Video](/prototipo/video.mp4)
-[Visor Web](/prototipo/kepler.html)
++ [Programa Python](/prototipo/georreferenciarMuestra.py)
++ [Video](/prototipo/video.mp4)
++ [Visor Web](/prototipo/kepler.html)
 
 
 ### Memoria
@@ -40,14 +40,14 @@ queremos mostrar cómo se mueven las bicicletas Zaragoza.
 En primer lugar, es de mención el haber utilizado únicamente datos de los desplazamientos del servicio BiZi, por lo que toda la circulación de bicicletas propias no queda reflejado al no haber datos.
 
 La movilidad de una persona al utilizar el servicio Bizi pensamos que no puede mostrarse de otra manera que a partir de un mapa, de manera que se han tenido que adecuar los datos proporcionados desde [BiZi](http://193.146.116.108/Bizi/). Estos datos están compuestor por los campos:
-+ CustID: identificador
-+ CustSex: género
-+ LustroNacimiento: edad
-+ DataTimeRemoval: fecha recogida 	
-+ Removal_Station: parking de recogida
-+ DateTime_Arrival: fecha llegada
-+ Arrival_station: parking llegada
-+ LocationLength: ???
++ **CustID:** identificador
++ **CustSex:** género
++ **LustroNacimiento:** edad
++ **DataTimeRemoval:** fecha recogida 	
++ **Removal_Station:** parking de recogida
++ **DateTime_Arrival:** fecha llegada
++ **Arrival_station:** parking llegada
++ **LocationLength:** ???
 
 #### Desarrollo del proyecto
 
@@ -65,7 +65,7 @@ El siguiente paso a dar, era la creación de rutas, pues únicamente se puede di
 
 De manera que para trazar las rutas aproximadas que los ciudadanos recorren cuando recogen una bici, se utilizó a través de un servidor propio [OSRM](http://project-osrm.org/), una aplicación de planificación de rutas en línea qué utiliza los datos de OSM.
 
-El tercer paso es obtener las localizaciones de la ruta que nos está generando OSRM, para ello se crea un [programa](/prototipo/georreferenciarMuestra.py) en Python con el objetivo de que busque para cada viaje las coordenadas inicio y fin, después lance la petición al servidor devolviéndole este la ruta en formato [GeoJSON](https://es.wikipedia.org/wiki/GeoJSON). Es con el GeoJSON obtenido, el cual tiene una geometría **LineString** con el que se interpola un punto cada vez que el usuario ha de haber recorrido 10 segundos (sabemos la distancia total de la **linestring** y el tiempo total que ha tardado en llegar.
+El tercer paso es obtener las localizaciones de la ruta que nos está generando OSRM, para ello se crea un [programa](/prototipo/georreferenciarMuestra.py) en Python con el objetivo de que busque para cada viaje las coordenadas inicio y fin, después lance la petición al servidor devolviéndole este la ruta en formato [GeoJSON](https://es.wikipedia.org/wiki/GeoJSON). Es con el GeoJSON obtenido, el cual tiene una geometría *LineString* con el que se interpola un punto cada vez que el usuario ha de haber recorrido 10 segundos (sabemos la distancia total de la *linestring* y el tiempo total que ha tardado en llegar.
 
 El fichero final resultante contiene los puntos interpolados y su tiempo asociado.
 
