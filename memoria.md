@@ -13,6 +13,7 @@ tipo de movilidad, los horarios, rutas y personas que optan por un medio de tran
 
 Equipo:
 + Mapeado Colaborativo
+
 Miembros:
 + Héctor Ochoa Ortiz. Informático
 + Joan Cano Aladid. Geógrafo
