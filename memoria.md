@@ -1,7 +1,7 @@
-### Memoria
+## Memoria
 
 
-### Título proyecto
+### Título proyecto - Zaragoza en ruta
 
 
 ### Descripción del prototipo y objetivo del mismo
@@ -10,20 +10,28 @@ y con el reto de **"Ojo al dato - Esto se mueve"** queremos mostrar a partir de 
 tipo de movilidad, los horarios, rutas y personas que optan por un medio de transporte limpio y que recorren a dirio los carriles bici y calles de Zaragoza.
 
 ### Equipo que ha desarrollado el prototipo. Nombre y apellidos de todos los participantes y perfil profesional
-+ Héctor Ochoa Ortiz. Desarrollador
-+ Joan Cano Aladid. Científico de datos
+
+Equipo:
++ Mapeado Colaborativo
+Miembros:
++ Héctor Ochoa Ortiz. Informático
++ Joan Cano Aladid. Geógrafo
 
 ### Indicación de un representante del equipo
+
 Joan Cano Aladid
 + e-mail: joancalad@gmail.com
 + Tlf: 686500085
 
 ### Problema que muestra o resuelve el prototipo
-El principal problema que resulve nuestro prototipo es la visualización de los recorridos que realiza un usuario del servicio Bizi, que hasta ahora no se tenía.
-A partir de este punto, gracias a tener una comprensión espacial del ruteado que hacen los usuarios se pueden llegar a tratar problemas 
+
+El principal problema que resuelve nuestro prototipo es la visualización de los recorridos que realiza un usuario del servicio Bizi incluyendo además una perspectiva 
+de género y edad, que hasta ahora no se tenía.
+A partir de este punto, gracias a tener una comprensión espacial del ruteado que hacen los usuarios se pueden llegar a tratar casos 
 relacionados con la mejora del servicio Bizi o la planificación del viario ciclista de Zaragoza.
 
-### Referencia a los datos que se han utilizado para el desarrollo del prototipo.
+### Referencia a los datos que se han utilizado para el desarrollo del prototipo
+
 En primer lugar, es de mención el haber utilizado únicamente datos de los desplazamientos del servicio BiZi, 
 por lo que toda la circulación de bicicletas propias u otros servicios como de bicicletas eléctricas no queda reflejada al no haber datos libres.
 
@@ -66,6 +74,7 @@ Es con el GeoJSON obtenido, el cual tiene una geometría *LineString* con el que
 El fichero final resultante contiene los puntos interpolados y su tiempo asociado.
 
 ### ¿Por qué los datos han permitido la visualización del problema y/o la búsqueda de la solución? Breve descripción del trabajo realizado con los datos
+
 Los datos proporcionados por BiZi ya muestran evidencias del cómo está funcionando el servicio Bizi, es decir, las estaciones que reciben más afluencia de 
 usuarios, el perfil demográfico que tienen, el género, ya son datos que se conocen. Sin embargo, no conocíamos las rutas que siguen.
 
@@ -96,6 +105,7 @@ pero, ¿y si agregamos el componente espacial?, podemos realizar consultas como 
 + ¿Hay carencia de paradas según el lugar de residencia?
 
 ### Descripción de usuarios beneficiados con el desarrollo del prototipo y/o visualización de datos
+
 Si se trata de usuarios, ahora mismo se benefician de tener una visualización rápida de los lugares donde hay una estación Bizi 
 y de los carriles bici disponibles. Además pueden ver las rutas que suelen recorrer los usuarios.
 
@@ -103,12 +113,14 @@ Un posible desarrollo del prototipo pasaría por tener todas las estaciones moni
 la estación de inicio y fin para que nos crease la ruta más rápida.
 
 ### Identificación de soluciones que inspira el prototipo
+
 Se identifica claramente como los dos primeros anillos de la ciudad de Zaragoza son los más concurridos durante todo el día y muchos de ellos recorren
 tramos en los que no existe carril bici.
 
 También se identifica que desde los anillos exteriores, la mayoría de viajes no retornan y todos se dirigen al centro.
 
 ### Conclusiones y próximos pasos
+
 Son muchas las cuestiones que se pueden plantear. El objetivo de nuestro grupo es concienciar a la ciudadanía de cómo se está moviendo Zaragoza en bici, 
 
 de que es una ciudad ciclista que crece como muestra el siguiente [vídeo](/prototipo/video.mp4) con todos los recorridos en un solo día.
