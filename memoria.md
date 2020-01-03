@@ -22,7 +22,7 @@ Miembros:
 
 Joan Cano Aladid
 + e-mail: joancalad@gmail.com
-+ Tlf: 686500085
++ Tlf: 
 
 ### Problema que muestra o resuelve el prototipo
 
